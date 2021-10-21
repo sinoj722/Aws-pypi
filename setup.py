@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["square"],
+    packages=["Square"],
     include_package_data=True,
     install_requires=[],
     entry_points={
