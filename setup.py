@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
      name="sinoj-square-1.0.4",
-     version="1.0.8",
+     version="1.0.9",
      description="It squares the number",
      long_description=README,
      long_description_content_type="text/markdown",
