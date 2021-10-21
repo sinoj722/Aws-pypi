@@ -10,7 +10,5 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - rm -rf dist build
-      - rm -rf egg-info
       - python setup.py sdist bdist_wheel
-      - twine upload --repository-url https://test.pypi.org/legacy/ dist/* --username sinoj --password Debited@12
+      - twine upload --repository-url https://test.pypi.org/legacy/  dist/*  --username sinoj --password Debited@12
