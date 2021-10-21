@@ -27,7 +27,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "square=square.__main__:main",
+            "Square=Square.__main__:main",
         ]
     },
  )
