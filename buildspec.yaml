@@ -14,4 +14,5 @@ phases:
       - twine upload --repository-url https://test.pypi.org/legacy/ dist/* --username sinoj --password Debited@12 --verbose
 artifacts:
   files:
-    - '**/*'
+    - appspec.yml
+    - ... other files to include in your build .
