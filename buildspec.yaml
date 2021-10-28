@@ -13,6 +13,6 @@ phases:
       - python setup.py sdist bdist_wheel
       - twine upload --repository-url https://test.pypi.org/legacy/ dist/* --username sinoj --password Debited@12 
 
-  artifacts:
-   files:
-     - '**/*'
+artifacts:
+  files: 
+    - '**/*'
