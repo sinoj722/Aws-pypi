@@ -11,7 +11,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - python setup.py sdist bdist_wheel
-      - twine upload -u sinoj -p Debited@12 - repository-url https://test.pypi.org/legacy/ dist / * 
+      - twine upload -u sinoj -p Debited@12 -repository-url https://test.pypi.org/legacy/ dist / * 
 
 artifacts:
   files: 
