@@ -9,4 +9,4 @@ phases:
     commands:
       - echo Deploy started on `date`
       - echo Deploying to $ENV_NAME environment...
-      
+      - echo Deploy completed
